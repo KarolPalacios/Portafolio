@@ -51,7 +51,7 @@ label>img{
     align-items: center;
     color: white;
     display: flex;
-    right: -100%;
+    left: -100%;
     transition: left .5s linear;
 }
 
@@ -163,15 +163,21 @@ h2{
     display: flex;
     margin: 1rem;
     width: 90%;
+    padding: 1rem;
     gap: 1rem;
     overflow-x: scroll;
-    min-width: 450px;
+    min-width: 350px;
 }
 
 .skills{
     padding: 1rem;
     background-color: var(--beige);
-    width: auto;
+}
+
+.skills > p{
+    width: 11rem;
+    height: 15rem;
+    margin: 0 .5rem;
 }
 
 .title{
@@ -302,6 +308,22 @@ h6{
 
 
 
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .contenedor ::-webkit-scrollbar{
+        visibility: hidden;
+    }
+
+    .skills{
+        width: 20rem;
+        height: auto;
+    }
+
+
 
 
     .experience-container{
@@ -317,9 +339,9 @@ h6{
     .projects-container{
         display: flex;
         flex-direction: row;
-        justify-content: center;
         gap: 1rem;
         flex-wrap: wrap;
+        margin: 0 2rem;
     }
 
     .img-container > img{
@@ -379,6 +401,11 @@ h6{
         padding: 3.5rem 7rem;
     }
 
-
+    .contenedor{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        overflow: hidden;
+    }
 
 }
