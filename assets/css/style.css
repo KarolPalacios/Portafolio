@@ -114,6 +114,10 @@ label>img{
     border-radius: 50%;
 }
 
+.icon:hover{
+    cursor: pointer;
+}
+
 .btn-contenido{
     background-color: var(--darkpurple);
     color: white;
