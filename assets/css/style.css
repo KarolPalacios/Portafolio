@@ -181,6 +181,48 @@ h2{
     margin-bottom: 1rem;
 }
 
+h6{
+    font-size: 1rem;
+}
+
+.section-experience{
+    padding: 2rem 1.5rem;
+    text-align: center;
+}
+
+.experience-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    max-width: 600px;
+    margin: 0 auto;
+    align-items: center;
+    row-gap: 2rem;
+}
+
+.experience-container > div{
+    text-align: left;
+}
+
+.experience-container > img{
+    width: 80px;
+}
+
+
+.section-projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.img-container{
+    padding: 0 1rem;
+}
+
+
+
+
+
 
 
 
